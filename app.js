@@ -1,8 +1,8 @@
 function clock(){
     const fullDate = new Date
-    const hours = fullDate.getHours();
-    const mins = fullDate.getMinutes();
-    const secs = fullDate.getSeconds();
+    var hours = fullDate.getHours();
+    var mins = fullDate.getMinutes();
+    var secs = fullDate.getSeconds();
     
 
     if (hours <  10){
